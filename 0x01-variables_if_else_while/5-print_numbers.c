@@ -11,8 +11,8 @@ int c ='0';
 
 while (c <= '9')
 {
-putchar(c)
-c++
+putchar(c);
+c++;
 }
 return (0);
 }
