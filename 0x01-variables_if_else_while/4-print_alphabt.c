@@ -15,7 +15,6 @@ if(ch =='e' || ch == 'q')
 else
 {
 putchar(ch);
-putchar('\n');
 }
 return (0);
 }
