@@ -4,6 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Using If Else statement to get a positive, zero and nagative int
+ * Return: 0
+ */
 
 int main(void)
 {
