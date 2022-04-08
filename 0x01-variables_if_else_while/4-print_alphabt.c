@@ -2,14 +2,14 @@
 
 /**
  * main - entry point
- * return:0
+ * Return: 0
  */
 
 int main(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-if(ch =='e' || ch == 'q')
+if (ch == 'e' || ch == 'q')
 {
 }
 else
