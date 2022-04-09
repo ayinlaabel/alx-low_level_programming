@@ -17,6 +17,7 @@ int main(void)
 	{
 		b = (a / 10 + '0');
 		c = (a % 10 + '0');
+		d = 0;
 
 		while (d < 99)
 		{
