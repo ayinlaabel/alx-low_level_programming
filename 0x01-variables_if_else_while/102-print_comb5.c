@@ -19,7 +19,7 @@ int main(void)
 		c = (a % 10 + '0');
 		d = 0;
 
-		while (d < 99)
+		while (d <= 99)
 		{
 			e = (d / 10 + '0');
 			f = (d % 10 + '0');
