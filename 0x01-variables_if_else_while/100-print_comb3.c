@@ -11,22 +11,22 @@ int a;
 int b = 0;
 while (b < 10)
 {
-c = 0;
-while (c < 10)
+a = 0;
+while (a < 10)
 {
-if (d != c && d < c)
+if (b != a && b < a)
 {
-putchar('0' + d);
-putchar('0' + c);
-if (c + d != 17)
+putchar('0' + b);
+putchar('0' + a);
+if (a + b != 17)
 {
 putchar(',');
 putchar(' ');
 }
 }
-c++;
+a++;
 }
-d++
+b++
 }
 putchar('\n');
 return (0);
