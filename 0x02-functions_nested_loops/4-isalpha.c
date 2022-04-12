@@ -2,8 +2,8 @@
 
 
 /**
- * main - Entry Point
- * @c is a value
+ * _isalpha - Entry Point
+ * @c: is a value
  * Return: 1 or 0
  */
 
