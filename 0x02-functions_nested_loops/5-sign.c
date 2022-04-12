@@ -3,7 +3,7 @@
 /**
  * print_sign - Entry Point
  * @n: the int to print
- * return: 1 + && 0 && -
+ * Return: Always 0.
  */
 
 int print_sign(int n)
@@ -12,7 +12,6 @@ int print_sign(int n)
 	{
 		_putchar('+');
 		return (1);
-
 	}
 	else if (n == 0)
 	{
