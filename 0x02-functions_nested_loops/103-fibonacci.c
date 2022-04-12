@@ -10,7 +10,7 @@ int main(void)
 {
 	int a = 0, b = 1, next = 0;
 
-	int sum 0;
+	int sum = 0;
 
 	while (next < 4000000)
 	{
@@ -19,7 +19,8 @@ int main(void)
 		b = next;
 
 		if (next % 2 == 0)
-			sum += next
+			sum += next;
 	}
-	printf("%i\n", );
+	printf("%i\n", sum);
+	return (0);
 }
