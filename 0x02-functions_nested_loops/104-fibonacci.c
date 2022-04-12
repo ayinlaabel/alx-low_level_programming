@@ -24,7 +24,6 @@ int main(void)
 		aft += bef;
 		bef = aft - bef;
 	}
-	
 	bef1 = (bef / l);
 	bef2 = (bef % l);
 	aft1 = (aft / l);
