@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <stdio.h>
+
 /**
  * puts2 - Entry Point
  * @str: Varaible
@@ -10,7 +11,7 @@
 void puts2(char *str)
 {
 	int i, len;
-	
+
 	len = strlen(str);
 	for (i = 0; i < len; i++)
 	{
