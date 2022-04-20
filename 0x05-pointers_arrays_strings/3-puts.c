@@ -3,7 +3,7 @@
 
 /**
  * _puts - Entry Point
- * @str: Varaible 
+ * @str: Varaible
  * Return: Always 0
  */
 
