@@ -13,7 +13,6 @@ int _atoi(char *s)
 	int y = -1;
 	int z = 0;
 
-	
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '-')
