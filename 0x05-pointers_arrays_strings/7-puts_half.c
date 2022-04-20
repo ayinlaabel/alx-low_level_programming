@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+
 /**
  * puts_half - Entry Point
  * @str: Varaible
@@ -11,7 +12,7 @@ void puts_half(char *str)
 {
 	int i, len;
 	int x = 0;
-	
+
 	len = strlen(str);
 	if (len % 2 != 0)
 	{
