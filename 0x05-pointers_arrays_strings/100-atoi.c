@@ -9,9 +9,9 @@
 
 int _atoi(char *s)
 {
-	int i, c, len;
+	int i, len;
 	int x = 0;
-	int y = 1;
+	int y = -1;
 	int z = 0;
 
 	len = strlen(s);
