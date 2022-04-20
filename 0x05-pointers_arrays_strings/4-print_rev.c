@@ -18,7 +18,7 @@ void print_rev(char *s)
 
 	while (i--)
 	{
-		printf("%s", s[i]);
+		printf("%d", s[i]);
 	}
 	printf("\n");
 }
