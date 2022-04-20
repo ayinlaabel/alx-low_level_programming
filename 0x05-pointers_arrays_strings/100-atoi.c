@@ -30,5 +30,5 @@ int _atoi(char *s)
 		}
 	}
 	x = y * x;
-	return (z);
+	return (x);
 }
