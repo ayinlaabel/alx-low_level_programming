@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_rev -  Entry Point
  * @s: Varaible
@@ -8,16 +8,15 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int i, t;
 
-	while (s[i])
-	{
-		i++;
-	}
+	int len = strlen(s);
 
-	while (i--)
+	for (i = 0; i < len / 2; i++)
 	{
-		_putchar(s[i]);
+		t = a[i];
+		a[i] = a[len - i - 1];
+		a[len - i - 1] = t;
 	}
-	_putchar('\n');
+	printf("%s\n", s);
 }
