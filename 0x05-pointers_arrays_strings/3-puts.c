@@ -20,5 +20,5 @@ void _puts(char *str)
 		str[len - i - 1] = temp;
 	}
 
-	printf("%s\n", str);
+	printf("%s\n", temp);
 }
