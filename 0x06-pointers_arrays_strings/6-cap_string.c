@@ -15,7 +15,7 @@ char *cap_string(char *str)
 	{
 		a = 0;
 
-		if (i == 0)
+		if (b == 0)
 		{
 			a = 1;
 		}
