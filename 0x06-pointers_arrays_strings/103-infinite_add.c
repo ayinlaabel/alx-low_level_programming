@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * infinite_add - add 2 numbers together
  * @n1: text representation of 1st number to add
@@ -13,7 +12,7 @@
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
-	
+
 	while (*(n1 + c1) != '\0')
 		c1++;
 	while (*(n2 + c2) != '\0')
