@@ -12,7 +12,7 @@ char *rot13(char *str)
 	char x[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char y[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (i = 0; str[a] != '\0'; a++)
+	for (a = 0; str[a] != '\0'; a++)
 	{
 		for (b = 0; b < 54; b++)
 		{
