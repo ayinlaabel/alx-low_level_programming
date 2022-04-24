@@ -69,7 +69,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			overflow = 1;
 		else
 			overflow = 0;
-		
+
 		if (digits >= (size_r - 1))
 			return (0);
 
