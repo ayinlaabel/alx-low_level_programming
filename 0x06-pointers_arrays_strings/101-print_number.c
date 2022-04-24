@@ -2,7 +2,7 @@
 
 /**
  * print_number - Entry Point
- * @n: Variable
+ * @n: variable
  * Return: Always 0
  */
 
