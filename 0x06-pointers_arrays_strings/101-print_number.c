@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_number - Entry Point
@@ -9,29 +8,38 @@
 
 void print_number(int n)
 {
-	unsigned int a, b, c;
+	unsigned int a, b;
+	int c = 0, d = 1, e;
 
+	if (n == 0)
+	{
+		_putchar('0');
+	}
 	if (n < 0)
 	{
-		_putchar(45);
-		a = n * -1;
-	}
-	else
-	{
-		a = n;
+		_putchar('-');
+		n += 1;
+		n *= -1;
+		n++;
 	}
 
-	b = a;
-	c = 1;
+	a = n;
+	b = n;
 
-	while (y > 9)
+	while (b > 0)
 	{
-		y /= 10;
-		c *= 10;
+		b /= 10;
+		c++;
 	}
 
-	for (; c >= 1; c /= 10)
+	for (e = 0; e < c; e++)
 	{
-		_putchar(((x / c) % 10) + 48);
+		d *= 10;
+	}
+	for (e = 0; e < c; e++)
+	{
+		_putchar((a / d) + '0');
+		a = a % d;
+		d /= 10;
 	}
 }
