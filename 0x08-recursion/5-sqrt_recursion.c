@@ -1,17 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Entry Point
- * @n: Variable
- * Return: Always 0
- */
-
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
-}
-
-/**
  * _sqrt - _sqrt_rescursion (Entry Point)
  * @n: Variable
  * @i: Variable
@@ -27,4 +16,15 @@ int _sqrt(int n, int i)
 	if ((i * i) == n)
 		return (i);
 	return (_sqrt(n, i + 1));
+}
+
+/**
+ * _sqrt_recursion - Main Function
+ * @n: Variable
+ * Return: Always 0
+ */
+
+int _sqrt_recursion(int n)
+{
+	return (_sqrt(n, 1));
 }
