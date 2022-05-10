@@ -121,6 +121,4 @@ addl = add / 10, nout[k] = (add % 10) + '0';
 }
 printf("%s\n", nout);
 return (0);
-
-
 }
