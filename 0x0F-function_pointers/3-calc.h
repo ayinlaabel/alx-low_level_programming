@@ -13,7 +13,7 @@
 typedef struct op
 {
 	char *op;
-	int (8f)(int a, int b);
+	int (*f)(int a, int b);
 } op_t;
 
 int op_add(int a, int b);
