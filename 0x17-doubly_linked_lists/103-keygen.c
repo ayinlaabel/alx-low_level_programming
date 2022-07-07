@@ -56,11 +56,11 @@ int f5(char *usrn, int len)
 
 
 
- /**
-  * f6 - generates a random char
-  * @usrn: username
-  * Return: a random char
-  */
+/**
+ * f6 - generates a random char
+ * @usrn: username
+ * Return: a random char
+ */
 
 int f6(char *usrn)
 {
